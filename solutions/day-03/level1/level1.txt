@@ -1,0 +1,47 @@
+1. What is a module?
+> Module is a single or multiple functions, that can be exported and imported when needed, can be included in a project.
+
+2. What is package?
+> A Package is a module or a collection of modules.
+
+3. What is the difference between a module and a package.
+> A module is a single or multiple functions while a package is a module or a collection of modules.
+
+4. What is NPM?
+> Node Package Manager is the default package manager for the JavaScript runtime environment Node.js.
+
+5. What is Webpack?
+> Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser.
+
+6. How do you create a new React project?
+> By running one of the following commands below:
+  $ npx create-react-app app_name
+  $ create-react-app app_name
+
+7. What are the files and folders inside a project folder(package.json, package-lock.json or yarn.lock, .gitignore,node_modules and public)?
+• node_modules - stores all the necessary node packages of the React applications.
+• Public
+   • index.html - the only HTML file we have in the entire application
+   • favicon.ico - an icon file
+   • manifest.json - is used to make the application a progressive web app
+• other images - open graph images(open graph images are images which are visible when a link share on social media)
+• robots.txt - information, if the website allows web scraping
+• src
+   • App.css, index.css - are different CSS files
+   • index.js - a file which allows to connect all the components with index.html
+   • App.js - A file where we usually import most of the presentational components
+   • serviceWorker.js: is used to add progressive web app features
+   • setupTests.js - to write testing cases
+• package.json- List of packages the applications uses
+• .gitignore - React boilerplate comes with git initiated, and the .gitingore allows files and folders not to be pushed to GitHub
+• README.md - Markdown file to write documentation
+• yarn.lock or package-lock.json - a means to lock the version of the package
+
+8. What is your favorite code editor (I believe that it is Visual Studio Code)?
+> Visual Studio Code
+
+9. Add different Visual Studio Code extensions to improve your productivity(eg. prettier, ESLint etc).
+> Done (see PR screenshots)
+
+10. Try to make a different custom module in a different file and import it to index.js.
+> Done (open index.js)
