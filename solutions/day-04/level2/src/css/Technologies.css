@@ -1,0 +1,22 @@
+.imageContainer {
+  margin: 20pt;
+  padding: 20pt;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icons {
+  display: flex;
+  gap: 50pt;
+  padding: 20pt;
+  justify-content: center;
+}
+
+.icons img {
+  min-width: 40pt;
+  max-width: 100pt;
+}
