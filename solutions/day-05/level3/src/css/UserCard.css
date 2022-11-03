@@ -1,0 +1,68 @@
+html {
+  background-color: rgb(240, 241, 247);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.user-card-container {
+  margin: 20px;
+  padding: 20px 20px 10px 20px;
+  border-radius: 5px;
+  background-color: white;
+  border: 0.5px;
+  border-style: solid;
+  border-color: rgb(230, 230, 230);
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 130px;
+}
+
+.name-image-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.check {
+  width: 12px;
+  height: 100%;
+}
+
+.clock {
+  width: 12px;
+  height: 100%;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+
+p {
+  color: gray;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+
+.position {
+  margin-bottom: 30px;
+}
+
+.skills {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.skill-badge {
+  background-color: rgb(43, 207, 206);
+  color: white;
+  padding: 2px 4px;
+  font-weight: 400;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+}
