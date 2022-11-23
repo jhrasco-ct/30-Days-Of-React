@@ -1,0 +1,67 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background: #323330;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: xx-large;
+}
+
+.app {
+  max-width: 500px;
+  padding: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: medium;
+}
+
+input {
+  height: 30px;
+  padding: 0 10px;
+  margin: 2px 0px;
+}
+
+input[type="color"] {
+  padding: 0px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  height: auto;
+  margin: 5px;
+}
+
+textarea {
+  padding: 10px;
+}
+
+.error-text {
+  color: red;
+}
+
+.no-error {
+  display: none;
+}
+
+button {
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: medium;
+  padding: 10px 30px;
+}
+
+button:active {
+  opacity: 0.5;
+}
