@@ -1,0 +1,22 @@
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+}
+
+.contact-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(100, 100, 100);
+  margin-bottom: 50px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1em;
+  font-weight: 600;
+  color: rgb(100, 100, 100);
+  margin-bottom: 10px;
+}

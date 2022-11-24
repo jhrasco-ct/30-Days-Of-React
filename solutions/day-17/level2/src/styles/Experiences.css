@@ -1,0 +1,37 @@
+.experiences-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+}
+
+.experience-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(100, 100, 100);
+  margin-bottom: 50px;
+}
+
+.company-row {
+  margin: 20px 0px;
+}
+
+.company {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(60, 60, 60);
+  margin-bottom: 3px;
+}
+
+.role {
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+  margin-bottom: 3px;
+}
+
+.date {
+  font-size: 0.9em;
+  font-weight: 500;
+  color: rgb(100, 100, 100);
+}
