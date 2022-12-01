@@ -1,0 +1,26 @@
+body {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.morning {
+  background: url("images/morning.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.noon {
+  background: url("images/noon.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.evening {
+  background: url("images/evening.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.night {
+  background: url("images/night.jpg") no-repeat center center fixed;
+  background-size: cover;
+}

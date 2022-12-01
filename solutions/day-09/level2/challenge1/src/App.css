@@ -1,0 +1,26 @@
+body {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.winter {
+  background: url("images/winter.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.summer {
+  background: url("images/summer.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.spring {
+  background: url("images/spring.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.autumn {
+  background: url("images/autumn.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
