@@ -1,0 +1,17 @@
+.colors-card-container {
+  margin: 20px 20px 60px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.row-color {
+  height: 50;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.row-color p {
+  color: white;
+  font-weight: bold;
+}
