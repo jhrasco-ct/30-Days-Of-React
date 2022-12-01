@@ -1,0 +1,14 @@
+.graphs {
+  background: #f0f0f0;
+  position: relative;
+  padding: 1rem;
+}
+
+.graph-wrapper {
+  width: 100%;
+  min-height: 60vh;
+  position: relative;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  box-shadow: 0 0 4px 1px rgba(51, 51, 51, 0.2);
+}

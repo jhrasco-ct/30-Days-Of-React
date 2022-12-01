@@ -1,0 +1,49 @@
+.country {
+  max-width: 25rem;
+  min-width: 25rem;
+  text-align: center;
+  margin: 0.5rem;
+  padding: 2rem;
+  border-radius: 0.2rem;
+  background: #fff;
+}
+
+.country_flag {
+  height: 12rem;
+  width: 20rem;
+  text-align: center;
+  margin: auto;
+}
+
+.country_flag img {
+  display: block;
+  margin: auto;
+  max-width: 75%;
+  max-height: 75%;
+  min-width: 75%;
+  min-height: 75%;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0.6rem 0.2rem #f1e1e1;
+}
+
+.country_name {
+  font-size: 1.6rem;
+  color: orange;
+  letter-spacing: 0.075rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.country p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.2rem;
+  color: #747474;
+  text-align: left;
+  letter-spacing: 0.05rem;
+}
+
+.country span {
+  font-weight: 600;
+  color: #616161;
+}

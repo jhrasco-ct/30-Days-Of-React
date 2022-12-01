@@ -1,0 +1,37 @@
+.controls {
+  width: 100%;
+  text-align: center;
+}
+
+.search-input {
+  color: orange;
+  width: 50%;
+  height: 5rem;
+  margin: 3rem auto;
+  padding: 15px 20px;
+  text-indent: 2rem;
+  outline: none;
+  border: 0.2rem solid #f8e7e7;
+  font-size: 2rem;
+  border-radius: 3rem;
+  background: #faf6f6;
+}
+
+.chart-icon {
+  font-size: 56px;
+}
+
+input::placeholder {
+  white-space: pre;
+  overflow-wrap: normal;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  line-height: initial;
+}
+
+::-webkit-input-placeholder {
+  -webkit-text-security: none;
+  color: darkgray;
+  pointer-events: none;
+  font-weight: 100;
+}
