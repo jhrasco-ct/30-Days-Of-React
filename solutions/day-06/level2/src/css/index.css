@@ -1,0 +1,56 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.main {
+  margin: 50px;
+  min-width: 800px;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+.grid {
+  display: inline-grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2px;
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.cell-prime {
+  background-color: rgb(251, 92, 83);
+  aspect-ratio: 1;
+}
+
+.cell-odd {
+  background-color: rgb(253, 219, 58);
+  aspect-ratio: 1;
+}
+
+.cell-even {
+  background-color: rgb(34, 190, 115);
+  aspect-ratio: 1;
+}
+
+.cell-color {
+  border-radius: 2px;
+  aspect-ratio: 1;
+}
+
+.cell-text {
+  color: white;
+  margin-top: 50%;
+  transform: translate(0, -50%);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.cell-color .cell-text {
+  font-size: 1em;
+  font-weight: lighter;
+}
