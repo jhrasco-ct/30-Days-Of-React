@@ -34,12 +34,10 @@ const router = createBrowserRouter([
   },
 ]);
 
-const App = () => {
-  return (
-    <div className="app">
-      <RouterProvider router={router} />
-    </div>
-  );
-};
+const App = () => (
+  <div className="app">
+    <RouterProvider router={router} />
+  </div>
+);
 
 export default App;

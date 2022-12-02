@@ -13,14 +13,12 @@ const NavigationItem = ({ path, title }) => (
   </NavLink>
 );
 
-const NavigationBar = () => {
-  return (
-    <div className="navigation-bar">
-      <NavigationItem path={"/"} title="Home" />
-      <NavigationItem path={"experiences"} title="Experiences" />
-      <NavigationItem path={"contact"} title="Contact" />
-    </div>
-  );
-};
+const NavigationBar = () => (
+  <div className="navigation-bar">
+    <NavigationItem path="/" title="Home" />
+    <NavigationItem path="experiences" title="Experiences" />
+    <NavigationItem path="contact" title="Contact" />
+  </div>
+);
 
 export default NavigationBar;
