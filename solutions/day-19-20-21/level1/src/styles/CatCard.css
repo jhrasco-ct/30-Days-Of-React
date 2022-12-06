@@ -1,0 +1,41 @@
+.card {
+  max-width: 600px;
+  margin: 20px 50px;
+  box-shadow: 0px 2px 5px #aaa;
+}
+
+.cat-image {
+  background-color: #eee;
+  width: 100%;
+  aspect-ratio: 2;
+}
+
+.cat-image img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 2;
+}
+
+.cat-info {
+  padding: 20px;
+  line-height: 1.6em;
+  color: #444;
+  font-weight: 500;
+}
+
+.cat-info div {
+  margin: 5px 0px;
+}
+
+.breed-name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+}
+
+.country {
+  font-weight: bold;
+}
+
+span.title {
+  color: #777;
+}
