@@ -1,0 +1,108 @@
+.post {
+  padding: 0 10px;
+  border: 1px solid #e6ecf0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.user-info .fa-user {
+  font-size: 25px;
+  border: 2px solid #8796a2;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: default;
+}
+
+.post i {
+  margin: 10px;
+  color: #697a89;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.post span {
+  color: #8796a2;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.post p {
+  margin: 0;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.post-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post .fa-edit,
+.post .fa-trash-alt {
+  color: #92d0f0;
+  margin: 10px;
+  font-size: 22px;
+}
+
+.tweeted-date {
+  font-size: 16px !important;
+  font-weight: 400;
+}
+
+/* Editing */
+
+.post textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #555;
+  background: #fcf8f3 !important;
+  padding: 15px;
+  resize: none;
+  margin: 15px 0;
+  min-width: 250px;
+  font-size: 16px;
+}
+
+.post .save-button,
+.post .cancel-button {
+  border: none;
+  outline: none;
+  margin: 2px;
+  width: 60px;
+  height: 30px;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: lighter;
+}
+
+.post .save-button {
+  background: #109de4;
+}
+
+.post .cancel-button {
+  background: grey;
+}

@@ -1,0 +1,75 @@
+.form-wrapper form {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 30px auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: center;
+}
+
+.form-wrapper textarea {
+  margin: 15px 0;
+  min-width: 250px;
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #555;
+  background: #fcf8f3 !important;
+  padding: 15px;
+  font-size: 16px;
+  resize: none;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+textarea:focus,
+textarea:hover {
+  box-shadow: 1px 1px 3px 2px rgb(146, 208, 240);
+}
+
+::placeholder {
+  color: darkgray;
+  pointer-events: none;
+}
+
+.form-wrapper form p {
+  float: right;
+  margin: 0;
+  color: #21a2f2;
+  font-size: 12px;
+}
+
+.form-wrapper button {
+  border: none;
+  outline: none;
+  margin: 2px;
+  width: 100px;
+  height: 40px;
+  margin-left: 15px;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: lighter;
+}
+
+.form-wrapper .activeButton {
+  background: #1da1f2;
+}
+
+.form-wrapper .disabledButton {
+  background: #92d0f0;
+}
+
+.form-wrapper button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+}
